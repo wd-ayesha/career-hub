@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { useLoaderData } from "react-router-dom";
 import Category from "../Category/Category";
+import Job from "../Job/Job";
 
 const Home = () => {
   const categories = useLoaderData();
+  const [jobs, setJobs] = useState([]);
+
+  useEffect( () => {
+    fetch('featuredJobs.json')
+    .then(res=>res.json())
+    .then(data=>setJobs(data))
+  }, [])
+
   return (
     <>
       <div className="sm:flex justify-between items-center home">
@@ -28,15 +37,28 @@ const Home = () => {
       </div>
       <section>
         <h2 className="text-4xl pt-10 font-semibold">Job Category List</h2>
-        <h3 className="py-8">
-          Explore thousands of job opportunities with all the information you
-          need. Its your future
-        </h3>
-        <div className="md:flex justify-between items-center">
-          {categories.map((category) => (
-            <Category key={category.id} category={category}></Category>
-          ))}
-        </div>
+        <h3 className="py-8">Explore thousands of job opportunities with all the information you need. Its your future</h3>
+        
+      <div className="md:flex justify-between items-center">
+      {
+            categories.map(category=><Category
+            key={category.id}
+            category={category}
+            ></Category>)
+        }
+      </div>
+      </section>
+      <section>
+        <h2 className="text-4xl pt-10 font-semibold">Featured Jobs</h2>
+        <h3 className="py-8">Explore thousands of job opportunities with all the information you need. Its your future</h3>
+      <div className="grid md:grid-cols-2 gap-5">
+        {
+           jobs.map(job => <Job
+           key={job.id}
+           job={job}
+           ></Job>) 
+        }
+      </div>
       </section>
     </>
   );

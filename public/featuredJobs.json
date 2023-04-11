@@ -1,0 +1,111 @@
+[
+    {
+    "id": "1001",
+    "logo": "https://i.ibb.co/V2yMvkS/google-1-1-1.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Acme Corporation",
+    "remoteOrOnsite": "Remote",
+    "location": "Any",
+    "fullOrPartTime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "Acme Corporation is seeking a highly motivated software engineer to join our team. The ideal candidate will have experience developing web applications using modern frameworks and languages such as React, Node.js, and Python. As a software engineer at Acme Corporation, you will have the opportunity to work on a wide range of projects and collaborate with talented developers across the company.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software development",
+    "contactInformation": {
+      "name": "John Doe",
+      "email": "john.doe@acme.com",
+      "phone": "555-123-4567"
+    }
+  },
+  {
+    "id": "1002",
+    "logo": "https://i.ibb.co/ZzHqjHD/netflix-4-1.png",
+    "jobTitle": "Software Developer",
+    "companyName": "XYZ Tech",
+    "remoteOrOnsite": "Remote",
+    "location": "Any",
+    "fullOrPartTime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "jobDescription": "XYZ Tech is seeking a talented software developer to work on our web application projects. The ideal candidate will have experience in modern web development frameworks, such as React or Angular, and be able to work well in a collaborative team environment. In this role, you will be responsible for designing and implementing scalable and maintainable software solutions that meet our customers' needs.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "2+ years of experience in web development",
+    "contactInformation": {
+      "name": "Jane Smith",
+      "email": "jane.smith@xyztech.com",
+      "phone": "555-123-4567"
+    }
+  },
+  {
+    "id": "1003",
+    "logo": "https://i.ibb.co/vYJx9qg/tesla-9-1.png",
+    "jobTitle": "Marketing Specialist",
+    "companyName": "ABC Corporation",
+    "remoteOrOnsite": "Remote",
+    "location": "Any",
+    "fullOrPartTime": "Full-time",
+    "salary": "$70,000 - $90,000",
+    "jobDescription": "ABC Corporation is seeking a Marketing Specialist to join our team. The ideal candidate will have experience in digital marketing and be able to develop and implement marketing strategies to increase customer engagement and drive sales. As a Marketing Specialist at ABC Corporation, you will work with cross-functional teams and have the opportunity to make an impact in a fast-paced and dynamic environment.",
+    "educationalRequirements": "Bachelor's degree in Marketing or related field",
+    "experiences": "3+ years of experience in marketing, with a focus on digital marketing",
+    "contactInformation": {
+      "name": "John Smith",
+      "email": "john.smith@abccorp.com",
+      "phone": "555-123-4567"
+    }
+  },
+  {
+    "id": "1004",
+    "logo": "https://i.ibb.co/fCwR9qk/Group-10021.png",
+    "jobTitle": "Customer Service Representative",
+    "companyName": "XYZ Corporation",
+    "remoteOrOnsite": "Onsite",
+    "location": "Chicago, IL",
+    "fullOrPartTime": "Full-time",
+    "salary": "$35,000 - $45,000",
+    "jobDescription": "XYZ Corporation is seeking a Customer Service Representative to join our team. The ideal candidate will have excellent communication skills and be able to provide exceptional customer service to our clients. As a Customer Service Representative at XYZ Corporation, you will handle inquiries, resolve complaints, and ensure customer satisfaction.",
+    "educationalRequirements": "High school diploma or equivalent",
+    "experiences": "1+ years of experience in customer service or related field",
+    "contactInformation": {
+      "name": "Jane Doe",
+      "email": "jane.doe@xyzcorp.com",
+      "phone": "555-123-4567"
+    }
+  },
+  {
+    "id": "1005",
+    "jobTitle": "Data Scientist",
+    "companyName": "ABC Corporation",
+    "remoteOrOnsite": "Remote",
+    "location": "Any",
+    "fullOrPartTime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "ABC Corporation is seeking a Data Scientist to join our team. The ideal candidate will have experience in data analysis and machine learning and be able to apply statistical techniques to solve business problems. As a Data Scientist at ABC Corporation, you will work with cross-functional teams and have the opportunity to make an impact in a fast-paced and dynamic environment.",
+    "educationalRequirements": "Master's or Ph.D. in a quantitative field such as Computer Science, Statistics, Mathematics, or related field",
+    "experiences": "3+ years of experience in data analysis, with a focus on machine learning",
+    "contactInformation": {
+      "name": "John Smith",
+      "email": "john.smith@abccorp.com",
+      "phone": "555-123-4567"
+    }
+  },
+  {
+    "id": "1006",
+    "jobTitle": "Software Engineer",
+    "companyName": "DEF Inc.",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fullOrPartTime": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "jobDescription": "DEF Inc. is looking for a talented Software Engineer to join our team. The ideal candidate will have a strong foundation in computer science, including proficiency in at least one programming language. As a Software Engineer at DEF Inc., you will work on a variety of projects, from designing and implementing new features to debugging and maintaining existing code.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software development",
+    "contactInformation": {
+      "name": "Sarah Lee",
+      "email": "sarah.lee@definc.com",
+      "phone": "555-123-4567"
+    }
+  }
+  
+  
+]
+  
