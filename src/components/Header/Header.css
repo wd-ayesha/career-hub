@@ -1,9 +1,10 @@
-
-.brand-name{
-    font-size: 30px;
-    font-weight: 700;
-    margin-right: 30px;
-}
+/* nav{
+    background: url('https://i.ibb.co/8zWXR6N/Vector-1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+} */
 nav a{
     margin-right: 20px;
+    font-weight: 500;
+    color: blueviolet;
 }

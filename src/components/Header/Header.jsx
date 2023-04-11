@@ -7,7 +7,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav>
+    <nav className="py-10">
       <div onClick={() => setOpen(!open)} className="md:hidden">
         <span>
           {open === true ? (
@@ -23,7 +23,7 @@ const Header = () => {
         </h1>
         <ul
           className={`md:flex absolute md:static duration-500 pl-8 py-2 items-center ${
-            open ? "top-16" : "-top-48"
+            open ? "top-28" : "-top-44"
           }`}
         >
           <li>
@@ -40,7 +40,7 @@ const Header = () => {
           </li>
 
           <li>
-            <button className="btn btn-primary bg-blue-500 p-3 rounded-lg hover:bg-blue-700 text-white font-semibold">
+            <button className="btn btn-primary bg-blue-500 py-2 px-3 rounded-lg hover:bg-blue-700 text-white font-semibold">
               Start Applying
             </button>
           </li>
