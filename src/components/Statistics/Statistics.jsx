@@ -4,7 +4,7 @@ import './Statistics.css'
 const Statistics = () => {
     return (
         <div>
-            <h1>Statistics</h1>
+            <h1 className='font-semibold text-2xl'>Statistics</h1>
         </div>
     );
 };

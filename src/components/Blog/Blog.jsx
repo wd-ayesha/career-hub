@@ -4,7 +4,7 @@ import './Blog.css'
 const Blog = () => {
     return (
         <div>
-            <h1>Blog</h1>
+            <h1 className='font-semibold text-2xl'>Blog</h1>
         </div>
     );
 };

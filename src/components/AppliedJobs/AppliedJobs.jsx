@@ -4,7 +4,7 @@ import './AppliedJobs.css'
 const AppliedJobs = () => {
     return (
         <div>
-            <h1>Applied Jobs</h1>
+            <h1 className='font-semibold text-2xl'>Applied Jobs</h1>
         </div>
     );
 };

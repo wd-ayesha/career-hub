@@ -30,6 +30,7 @@ const Home = () => {
           <button className="btn btn-primary bg-blue-500 py-2 px-3 rounded-lg hover:bg-blue-700 text-white font-semibold">
             Get Started
           </button>
+         
         </div>
         <div className="w-96">
           <img src="https://i.ibb.co/YBQTbKV/P3-OLGJ1-copy-1.png" alt="" />
