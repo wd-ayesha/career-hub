@@ -9,11 +9,13 @@ import Statistics from "./components/Statistics/Statistics";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Blog from "./components/Blog/Blog";
 import JobDetails from "./components/jobDetails/JobDetails";
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -21,9 +23,9 @@ const router = createBrowserRouter([
         loader: () => fetch("categories.json"),
       },
       {
-        path: "detail/:id",
+        path: "job/:id",
         element: <JobDetails></JobDetails>,
-        loader: () => fetch("/featuredJobs.json"),
+        loader: ({params}) => fetch("/featuredJobs.json"),
       },
       {
         path: "statistics",
@@ -36,17 +38,6 @@ const router = createBrowserRouter([
       {
         path: "blog",
         element: <Blog></Blog>,
-      },
-      {
-        path: "*",
-        element: (
-          <div>
-            <h1 className="font-bold text-3xl text-red-700">404</h1>
-            <p className="font-semibold">
-              Sorry, an unexpected error has occurred!
-            </p>
-          </div>
-        ),
       },
     ],
   },

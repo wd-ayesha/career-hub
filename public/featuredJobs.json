@@ -1,63 +1,61 @@
 [
-    {
+  {
     "id": 1,
     "logo": "https://i.ibb.co/V2yMvkS/google-1-1-1.png",
     "jobTitle": "Software Engineer",
-    "companyName": "Acme Corporation",
+    "companyName": "Google",
+    "responsibilities": "Develop and maintain software systems, Collaborate with cross-functional teams to identify and prioritize product features , Write clean, concise, and well-documented code, Participate in code reviews to maintain code quality standards,Debug and troubleshoot issues as they arise, Stay up-to-date with emerging technologies and industry trends",
     "remoteOrOnsite": "Remote",
-    "location": "Any",
+    "location": "USA",
     "fullOrPartTime": "Full-time",
     "salary": "$100,000 - $120,000",
     "jobDescription": "Acme Corporation is seeking a highly motivated software engineer to join our team. The ideal candidate will have experience developing web applications using modern frameworks and languages such as React, Node.js, and Python. As a software engineer at Acme Corporation, you will have the opportunity to work on a wide range of projects and collaborate with talented developers across the company.",
     "educationalRequirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "3+ years of experience in software development",
-    "contactInformation": {
-      "name": "John Doe",
-      "email": "john.doe@acme.com",
-      "phone": "555-123-4567"
-    }
+    "name": "John Doe",
+    "email": "john.doe@acme.com",
+    "phone": "555-123-4567"
   },
   {
     "id": 2,
     "logo": "https://i.ibb.co/ZzHqjHD/netflix-4-1.png",
     "jobTitle": "Software Developer",
     "companyName": "XYZ Tech",
+    "responsibilities": "Design and develop software applications for iOS/macOS platforms, Collaborate with product managers and designers to define product features, Write scalable and efficient code using best practices, Conduct code reviews to ensure code quality and maintainability,Debug and troubleshoot issues as they arise, Stay up-to-date with the latest technologies and industry trends",
     "remoteOrOnsite": "Remote",
-    "location": "Any",
+    "location": "Canada",
     "fullOrPartTime": "Full-time",
     "salary": "$90,000 - $110,000",
     "jobDescription": "XYZ Tech is seeking a talented software developer to work on our web application projects. The ideal candidate will have experience in modern web development frameworks, such as React or Angular, and be able to work well in a collaborative team environment. In this role, you will be responsible for designing and implementing scalable and maintainable software solutions that meet our customers' needs.",
     "educationalRequirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "2+ years of experience in web development",
-    "contactInformation": {
-      "name": "Jane Smith",
-      "email": "jane.smith@xyztech.com",
-      "phone": "555-123-4567"
-    }
+    "name": "Jane Smith",
+    "email": "jane.smith@xyztech.com",
+    "phone": "555-123-4567"
   },
   {
     "id": 3,
     "logo": "https://i.ibb.co/vYJx9qg/tesla-9-1.png",
     "jobTitle": "Marketing Specialist",
     "companyName": "ABC Corporation",
+    "responsibilities": "Develop and implement marketing strategies to promote company products or services, Conduct market research to identify target audiences and their preferences, Collaborate with cross-functional teams to develop marketing campaigns and initiatives, Create and manage content for various marketing channels, including social media, email, and website, Analyze and report on the effectiveness of marketing campaigns and adjust strategies accordingly, Plan and coordinate events, trade shows, and other promotional activities, Manage the company's brand identity and ensure consistency across all marketing materials, Stay up-to-date with the latest marketing trends and best practices",
     "remoteOrOnsite": "Remote",
-    "location": "Any",
+    "location": "San Francisco",
     "fullOrPartTime": "Full-time",
     "salary": "$70,000 - $90,000",
     "jobDescription": "ABC Corporation is seeking a Marketing Specialist to join our team. The ideal candidate will have experience in digital marketing and be able to develop and implement marketing strategies to increase customer engagement and drive sales. As a Marketing Specialist at ABC Corporation, you will work with cross-functional teams and have the opportunity to make an impact in a fast-paced and dynamic environment.",
     "educationalRequirements": "Bachelor's degree in Marketing or related field",
     "experiences": "3+ years of experience in marketing, with a focus on digital marketing",
-    "contactInformation": {
-      "name": "John Smith",
-      "email": "john.smith@abccorp.com",
-      "phone": "555-123-4567"
-    }
+    "name": "John Smith",
+    "email": "john.smith@abccorp.com",
+    "phone": "555-123-4567"
   },
   {
     "id": 4,
     "logo": "https://i.ibb.co/fCwR9qk/Group-10021.png",
     "jobTitle": "Customer Service Representative",
     "companyName": "XYZ Corporation",
+    "responsibilities": "Provide excellent customer service by responding to inquiries, resolving issues, and providing information about products or services, Manage and prioritize a high volume of incoming calls, emails, and other communication channels, Document all customer interactions accurately and efficiently, Collaborate with cross-functional teams to escalate complex issues and ensure prompt resolution, Identify and report trends in customer feedback to improve product or service offerings, Follow established protocols and procedures to ensure compliance with company policies, Provide feedback to management on process improvements and customer experience, Stay up-to-date with product knowledge, company policies, and industry trends to provide the best service possible",
     "remoteOrOnsite": "Onsite",
     "location": "Chicago, IL",
     "fullOrPartTime": "Full-time",
@@ -65,32 +63,32 @@
     "jobDescription": "XYZ Corporation is seeking a Customer Service Representative to join our team. The ideal candidate will have excellent communication skills and be able to provide exceptional customer service to our clients. As a Customer Service Representative at XYZ Corporation, you will handle inquiries, resolve complaints, and ensure customer satisfaction.",
     "educationalRequirements": "High school diploma or equivalent",
     "experiences": "1+ years of experience in customer service or related field",
-    "contactInformation": {
-      "name": "Jane Doe",
-      "email": "jane.doe@xyzcorp.com",
-      "phone": "555-123-4567"
-    }
+    "name": "Jane Doe",
+    "email": "jane.doe@xyzcorp.com",
+    "phone": "555-123-4567"
   },
   {
     "id": 5,
+    "logo": "https://i.ibb.co/vYJx9qg/tesla-9-1.png",
     "jobTitle": "Data Scientist",
+    "responsibilities": "Collect, clean, and organize large amounts of data from various sources, Analyze data using statistical and machine learning techniques to identify patterns and insights, Develop predictive models to forecast future trends and outcomes, Visualize and communicate data findings to stakeholders in a clear and understandable manner, Collaborate with cross-functional teams to identify business problems and develop data-driven solutions, Continuously monitor and evaluate model performance and make adjustments as needed, Stay up-to-date with the latest data science tools and technologies, Ensure compliance with data privacy and security regulations",
     "companyName": "ABC Corporation",
     "remoteOrOnsite": "Remote",
-    "location": "Any",
+    "location": "Netherlands",
     "fullOrPartTime": "Full-time",
     "salary": "$100,000 - $120,000",
     "jobDescription": "ABC Corporation is seeking a Data Scientist to join our team. The ideal candidate will have experience in data analysis and machine learning and be able to apply statistical techniques to solve business problems. As a Data Scientist at ABC Corporation, you will work with cross-functional teams and have the opportunity to make an impact in a fast-paced and dynamic environment.",
     "educationalRequirements": "Master's or Ph.D. in a quantitative field such as Computer Science, Statistics, Mathematics, or related field",
     "experiences": "3+ years of experience in data analysis, with a focus on machine learning",
-    "contactInformation": {
-      "name": "John Smith",
-      "email": "john.smith@abccorp.com",
-      "phone": "555-123-4567"
-    }
+    "name": "John Smith",
+    "email": "john.smith@abccorp.com",
+    "phone": "555-123-4567"
   },
   {
     "id": 6,
+    "logo": "https://i.ibb.co/ZzHqjHD/netflix-4-1.png",
     "jobTitle": "Software Engineer",
+    "responsibilities": "Design and develop high-quality software solutions that meet business needs, Collaborate with cross-functional teams to identify software requirements and develop specifications, Write clean, maintainable, and efficient code using industry best practices, Perform code reviews to ensure code quality and adherence to coding standards, Test and debug software to ensure it meets specifications and quality standards, Deploy software to production environments and ensure scalability, reliability, and security, Provide technical support and troubleshoot software issues, Stay up-to-date with emerging software development tools and technologies",
     "companyName": "DEF Inc.",
     "remoteOrOnsite": "Onsite",
     "location": "San Francisco, CA",
@@ -99,13 +97,8 @@
     "jobDescription": "DEF Inc. is looking for a talented Software Engineer to join our team. The ideal candidate will have a strong foundation in computer science, including proficiency in at least one programming language. As a Software Engineer at DEF Inc., you will work on a variety of projects, from designing and implementing new features to debugging and maintaining existing code.",
     "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field",
     "experiences": "3+ years of experience in software development",
-    "contactInformation": {
-      "name": "Sarah Lee",
-      "email": "sarah.lee@definc.com",
-      "phone": "555-123-4567"
-    }
+    "name": "Sarah Lee",
+    "email": "sarah.lee@definc.com",
+    "phone": "555-123-4567"
   }
-  
-  
 ]
-  

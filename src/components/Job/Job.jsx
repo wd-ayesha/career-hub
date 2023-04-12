@@ -38,7 +38,7 @@ const Job = ({ job }) => {
           <CurrencyDollarIcon className="h-6 w-6 text-slate-300" /> {salary}
         </p>
       </div>
-      <Link to={`/detail/ ${id}`}>
+      <Link to={`/job/ ${id}`}>
         <button
           onClick={haldleViewDetail}
           className="btn btn-primary bg-purple-500 py-2 px-3 rounded-lg hover:bg-purple-700 text-white font-semibold"
