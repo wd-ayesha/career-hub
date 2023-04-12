@@ -16,7 +16,7 @@ const Job = ({ job }) => {
   // console.log(job)
 
   const haldleViewDetail = () => {
-    console.log("added");
+    // console.log("added");
   };
 
   return (

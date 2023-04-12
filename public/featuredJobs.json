@@ -1,6 +1,6 @@
 [
     {
-    "id": "1001",
+    "id": 1,
     "logo": "https://i.ibb.co/V2yMvkS/google-1-1-1.png",
     "jobTitle": "Software Engineer",
     "companyName": "Acme Corporation",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "id": "1002",
+    "id": 2,
     "logo": "https://i.ibb.co/ZzHqjHD/netflix-4-1.png",
     "jobTitle": "Software Developer",
     "companyName": "XYZ Tech",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "id": "1003",
+    "id": 3,
     "logo": "https://i.ibb.co/vYJx9qg/tesla-9-1.png",
     "jobTitle": "Marketing Specialist",
     "companyName": "ABC Corporation",
@@ -54,7 +54,7 @@
     }
   },
   {
-    "id": "1004",
+    "id": 4,
     "logo": "https://i.ibb.co/fCwR9qk/Group-10021.png",
     "jobTitle": "Customer Service Representative",
     "companyName": "XYZ Corporation",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "id": "1005",
+    "id": 5,
     "jobTitle": "Data Scientist",
     "companyName": "ABC Corporation",
     "remoteOrOnsite": "Remote",
@@ -89,7 +89,7 @@
     }
   },
   {
-    "id": "1006",
+    "id": 6,
     "jobTitle": "Software Engineer",
     "companyName": "DEF Inc.",
     "remoteOrOnsite": "Onsite",
