@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-import JobDetail from "../JobDetail/JobDetail";
 import {
   MapPinIcon,
   CurrencyDollarIcon,
@@ -8,6 +7,7 @@ import {
   PhoneIcon,
   EnvelopeIcon,
 } from "@heroicons/react/24/solid";
+import { addToDb } from "../../../utils/fakedb";
 
 const JobDetails = () => {
   let jobDetail = useParams();
@@ -23,6 +23,11 @@ const JobDetails = () => {
     setFeature(jobData);
   }, [jobDetail, jobs]);
 
+const handleAppliedToCart = id => {
+  console.log(id)
+  addToDb(id)
+}
+  
   return (
     <div>
       <h1 className="font-semibold text-2xl pb-10">Job Details</h1>
@@ -51,13 +56,13 @@ const JobDetails = () => {
               Job Details
             </h3>
             <h4 className="py-2 flex">
-              <CurrencyDollarIcon className="h-6 w-6 text-slate-400 mr-2" />{" "}
+              <CurrencyDollarIcon className="h-6 w-6 text-slate-400 mr-2" />
               <span className="font-semibold"> Salary : </span>
               <span>{feature.salary} Per Month</span>
             </h4>
             <h3 className="py-2 flex">
               <CalendarDaysIcon className="h-6 w-6 text-slate-400 mr-2" />
-              <span className="font-semibold">Job Title : </span>{" "}
+              <span className="font-semibold">Job Title : </span>
               {feature.jobTitle}
             </h3>
             <h3 className="text-xl font-semibold border-b border-red-800 pb-2">
@@ -73,11 +78,11 @@ const JobDetails = () => {
             </h4>
             <h4 className="py-2 flex">
               <MapPinIcon className="h-6 w-6 text-slate-400 mr-2" />
-              <span className="font-semibold"> Address : </span>{" "}
+              <span className="font-semibold"> Address : </span>
               {feature.location}
             </h4>
           </div>
-          <button className="btn btn-primary bg-purple-500 py-3 rounded-lg hover:bg-purple-700 mt-6 text-white font-semibold w-full">
+          <button onClick={handleAppliedToCart} className="btn btn-primary bg-purple-500 py-3 rounded-lg hover:bg-purple-700 mt-6 text-white font-semibold w-full">
             Apply Now
           </button>
         </div>
@@ -87,18 +92,3 @@ const JobDetails = () => {
 };
 
 export default JobDetails;
-
-/* const { jobId } = useParams();
-    const jobsData = useLoaderData();
-
-    const [jobDetail, setJobDetail] = useState({});
-
-    useEffect( () => {
-        const job = jobsData.find((job) => job.id === jobId);
-        console.log(job);
-
-    }, [jobId, jobsData]); */
-
-/*    if(!jobDetail){
-        return <div>Loading...</div>
-    } */
