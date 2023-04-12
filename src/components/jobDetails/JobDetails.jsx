@@ -11,10 +11,8 @@ import { addToDb } from "../../../utils/fakedb";
 
 const JobDetails = () => {
   let jobDetail = useParams();
-  console.log(jobDetail);
-  const jobs = useLoaderData();
 
-  console.log(jobs);
+  const jobs = useLoaderData();
 
   const [feature, setFeature] = useState({});
 
@@ -23,9 +21,8 @@ const JobDetails = () => {
     setFeature(jobData);
   }, [jobDetail, jobs]);
 
-const handleAppliedToCart = id => {
-  console.log(id)
-  addToDb(id)
+const handleAddToCart = id => {
+ addToDb(id)
 }
   
   return (
@@ -82,7 +79,7 @@ const handleAppliedToCart = id => {
               {feature.location}
             </h4>
           </div>
-          <button onClick={handleAppliedToCart} className="btn btn-primary bg-purple-500 py-3 rounded-lg hover:bg-purple-700 mt-6 text-white font-semibold w-full">
+          <button onClick={handleAddToCart} className="btn btn-primary bg-purple-500 py-3 rounded-lg hover:bg-purple-700 mt-6 text-white font-semibold w-full">
             Apply Now
           </button>
         </div>

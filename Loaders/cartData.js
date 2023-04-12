@@ -1,19 +1,21 @@
-import { getStoredCart } from '../utils/fakedb';
+import { getStoredCart } from '../utils/fakedb'
 
 export const cartData = async () => {
-  const featuresData = await fetch('/featuredJobs.json')
-  const features = await featuresData.json()
+
+
+  const productsData = await fetch('/featuredJobs.json')
+  const products = await productsData.json()
 
   const savedCart = getStoredCart()
   const initialCart = []
   for (const id in savedCart) {
-    const foundFeature = features.find(f => f.id === id)
-    if (foundFeature) {
+    const foundProduct = products.find(product => product.id === id)
+    if (foundProduct) {
       const quantity = savedCart[id]
-      foundFeature.quantity = quantity
-      initialCart.push(foundFeature)
+      foundProduct.quantity = quantity
+      initialCart.push(foundProduct)
     }
   }
 
-  return { features, initialCart }
+  return { products, initialCart }
 }

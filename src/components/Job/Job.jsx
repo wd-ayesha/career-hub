@@ -13,8 +13,7 @@ const Job = ({ job }) => {
     remoteOrOnsite,
     fullOrPartTime,
   } = job;
-  // console.log(job)
-
+ 
   const haldleViewDetail = () => {
     // console.log("added");
   };
