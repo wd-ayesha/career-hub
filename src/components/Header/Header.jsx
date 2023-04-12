@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -18,7 +18,7 @@ const Header = () => {
         </span>
       </div>
       <div className="flex items-center justify-between">
-      <h1 className="ml-2 text-xl font-bold text-gray-800 hidden sm:hidden md:block">
+      <h1 className="ml-2 text-3xl font-bold text-gray-800 hidden sm:hidden md:block">
           JobZone
         </h1>
         <ul
@@ -27,16 +27,16 @@ const Header = () => {
           }`}
         >
           <li>
-            <Link to="/">Home</Link>
+            <ActiveLink to="/">Home</ActiveLink>
           </li>
           <li>
-            <Link to="/statistics">Statistics</Link>
+            <ActiveLink to="/statistics">Statistics</ActiveLink>
           </li>
           <li>
-            <Link to="/applied-jobs">Applied Jobs</Link>
+            <ActiveLink to="/applied-jobs">Applied Jobs</ActiveLink>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <ActiveLink to="/blog">Blog</ActiveLink>
           </li>
 
           <li>
