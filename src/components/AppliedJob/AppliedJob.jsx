@@ -15,17 +15,11 @@ const AppliedJob = ({ item }) => {
   } = item;
 
   return (
-    <div>
-      <button className="btn btn-primary bg-purple-500 py-2 px-3 rounded-lg hover:bg-purple-700 text-white font-semibold mr-3 mb-3">{remoteOrOnsite}</button>
-      <button className="btn btn-primary bg-purple-500 py-2 px-3 rounded-lg hover:bg-purple-700 text-white font-semibold">{fullOrPartTime}</button>
+    <div>       
       <div className="border rounded p-5 text-left flex justify-between">
         <div className="flex justify-center items-center">
           <div className="mr-10">
-            <img
-              className="bg-purple-100 py-16 px-5 rounded-lg"
-              src={logo}
-              alt=""
-            />
+            <img className="bg-purple-100 py-16 px-5 rounded-lg" src={logo} alt="" />
           </div>
           <div>
             <h3 className="text-2xl font-semibold py-3">{jobTitle}</h3>
