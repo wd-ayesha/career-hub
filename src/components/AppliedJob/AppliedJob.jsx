@@ -13,6 +13,7 @@ const AppliedJob = ({ item }) => {
     remoteOrOnsite,
     fullOrPartTime,
   } = item;
+
   return (
     <div>
       <div className="border rounded p-5 text-left flex justify-between">

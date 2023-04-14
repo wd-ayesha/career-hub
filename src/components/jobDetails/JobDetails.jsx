@@ -16,7 +16,7 @@ const JobDetails = () => {
 
   const [feature, setFeature] = useState({});
   const jobId = parseInt(jobDetail.id);
-  // console.log(jobId)
+
   useEffect(() => {
     const jobData = jobs.find((job) => job.id == jobId);
     
@@ -29,7 +29,7 @@ const handleAddToCart = (id) => {
   console.log(id)
  addToDb(id)
 }
-  
+
   return (
     <div>
       <h1 className="font-semibold text-2xl pb-10">Job Details</h1>
