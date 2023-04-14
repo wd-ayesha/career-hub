@@ -15,13 +15,18 @@ const JobDetails = () => {
   const jobs = useLoaderData();
 
   const [feature, setFeature] = useState({});
-
+  const jobId = parseInt(jobDetail.id);
+  // console.log(jobId)
   useEffect(() => {
-    const jobData = jobs.find((job) => job.id == jobDetail.id);
+    const jobData = jobs.find((job) => job.id == jobId);
+    
     setFeature(jobData);
+
   }, [jobDetail, jobs]);
 
-const handleAddToCart = id => {
+
+const handleAddToCart = (id) => {
+  console.log(id)
  addToDb(id)
 }
   
@@ -79,7 +84,7 @@ const handleAddToCart = id => {
               {feature.location}
             </h4>
           </div>
-          <button onClick={handleAddToCart} className="btn btn-primary bg-purple-500 py-3 rounded-lg hover:bg-purple-700 mt-6 text-white font-semibold w-full">
+          <button onClick={() => handleAddToCart(jobId)} className="btn btn-primary bg-purple-500 py-3 rounded-lg hover:bg-purple-700 mt-6 text-white font-semibold w-full">
             Apply Now
           </button>
         </div>

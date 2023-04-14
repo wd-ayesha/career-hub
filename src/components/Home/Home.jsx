@@ -7,12 +7,17 @@ import Job from "../Job/Job";
 const Home = () => {
   const categories = useLoaderData();
   const [jobs, setJobs] = useState([]);
+  const [showAllJobs, setShowAllJobs] = useState(false);
 
   useEffect(() => {
     fetch("featuredJobs.json")
       .then((res) => res.json())
       .then((data) => setJobs(data));
   }, []);
+
+  const handleSeeAllJobs = () => {
+    setShowAllJobs(true);
+  }
 
   return (
     <>
@@ -54,14 +59,19 @@ const Home = () => {
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </h3>
+
         <div className="grid md:grid-cols-2 gap-5">
-          {jobs.map((job) => (
+        {jobs.map((job, index) => {
+          if (!showAllJobs && index >= 4) {
+            return null;
+          }
+          return (
             <Job key={job.id} job={job}></Job>
-          ))}
-        </div>
-        <button className="btn btn-primary bg-purple-500 my-5 py-2 px-3 rounded-lg hover:bg-purple-700 text-white font-semibold">
-          See All Jobs
-        </button>
+          );
+        })}
+      </div>
+  
+        {!showAllJobs && jobs.length > 4 && <button className="btn btn-primary bg-purple-500 my-5 py-2 px-3 rounded-lg hover:bg-purple-700 text-white font-semibold" onClick={handleSeeAllJobs}>See All Jobs</button>}
       </section>
     </>
   );

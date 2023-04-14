@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
@@ -13,10 +13,6 @@ const Job = ({ job }) => {
     remoteOrOnsite,
     fullOrPartTime,
   } = job;
- 
-  const haldleViewDetail = () => {
-    // console.log("added");
-  };
 
   return (
     <div className="border rounded p-5 text-left">
@@ -39,7 +35,6 @@ const Job = ({ job }) => {
       </div>
       <Link to={`/job/ ${id}`}>
         <button
-          onClick={haldleViewDetail}
           className="btn btn-primary bg-purple-500 py-2 px-3 rounded-lg hover:bg-purple-700 text-white font-semibold"
         >
           View Details

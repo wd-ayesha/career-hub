@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "logo": "https://i.ibb.co/V2yMvkS/google-1-1-1.png",
     "jobTitle": "Software Engineer",
     "companyName": "Google",
@@ -17,7 +17,7 @@
     "phone": "555-123-4567"
   },
   {
-    "id": 2,
+    "id": "2",
     "logo": "https://i.ibb.co/ZzHqjHD/netflix-4-1.png",
     "jobTitle": "Software Developer",
     "companyName": "NetFlix",
@@ -34,7 +34,7 @@
     "phone": "555-123-4567"
   },
   {
-    "id": 3,
+    "id": "3",
     "logo": "https://i.ibb.co/vYJx9qg/tesla-9-1.png",
     "jobTitle": "Marketing Specialist",
     "companyName": "Tesla Corporation",
@@ -51,7 +51,7 @@
     "phone": "555-123-4567"
   },
   {
-    "id": 4,
+    "id": "4",
     "logo": "https://i.ibb.co/fCwR9qk/Group-10021.png",
     "jobTitle": "Customer Service Representative",
     "companyName": "Airbnb Corporation",
@@ -68,7 +68,7 @@
     "phone": "555-123-4567"
   },
   {
-    "id": 5,
+    "id": "5",
     "logo": "https://i.ibb.co/vYJx9qg/tesla-9-1.png",
     "jobTitle": "Data Scientist",
     "responsibilities": "Collect, clean, and organize large amounts of data from various sources, Analyze data using statistical and machine learning techniques to identify patterns and insights, Develop predictive models to forecast future trends and outcomes, Visualize and communicate data findings to stakeholders in a clear and understandable manner, Collaborate with cross-functional teams to identify business problems and develop data-driven solutions, Continuously monitor and evaluate model performance and make adjustments as needed, Stay up-to-date with the latest data science tools and technologies, Ensure compliance with data privacy and security regulations",
@@ -85,7 +85,7 @@
     "phone": "555-123-4567"
   },
   {
-    "id": 6,
+    "id": "6",
     "logo": "https://i.ibb.co/ZzHqjHD/netflix-4-1.png",
     "jobTitle": "Software Engineer",
     "responsibilities": "Design and develop high-quality software solutions that meet business needs, Collaborate with cross-functional teams to identify software requirements and develop specifications, Write clean, maintainable, and efficient code using industry best practices, Perform code reviews to ensure code quality and adherence to coding standards, Test and debug software to ensure it meets specifications and quality standards, Deploy software to production environments and ensure scalability, reliability, and security, Provide technical support and troubleshoot software issues, Stay up-to-date with emerging software development tools and technologies",

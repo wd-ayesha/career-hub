@@ -12,8 +12,8 @@ export const cartData = async () => {
     const foundProduct = products.find(product => product.id === id)
     if (foundProduct) {
       const quantity = savedCart[id]
-      foundProduct.quantity = quantity
-      initialCart.push(foundProduct)
+      foundProduct.quantity = quantity;
+      initialCart.push(foundProduct);
     }
   }
 
